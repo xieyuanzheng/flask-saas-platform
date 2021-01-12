@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}首页{% endblock %}
+
+{% block navbar %}
+<section class="content-header">
+    <h1>首页</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">首页</li>
+    </ol>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="box box-primary">
+    <div class="box-body">
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3 id="count01">17089</h3>
+                        <p>Bug数</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-ios-gear-outline"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3 id="count02">2356</h3>
+                        <p>发布生产数</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-iphone"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3 id="count03">7852</h3>
+                        <p>Story数</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3 id="count04">899</h3>
+                        <p>项目数</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-footer">
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <h4><i class="icon fa fa-info"></i> 温馨提示</h4>
+            <ol>
+                <li>软件测试就是贯穿整个软件开发生命周期，对软件产品（包括阶段性产品）进行验证（Verification）和确认（Validation）的活动过程，是证伪，而不是证真。</li>
+                <li>测试最终目的是尽快尽早地发现在软件中的缺陷，通过修正各种错误和缺陷提高软件质量，回避软件发布后潜在软件缺陷和错误造成的隐患所带来商业风险。</li>
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}
